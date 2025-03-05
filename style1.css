@@ -1,0 +1,72 @@
+body {
+    font-family: 'Garamond', serif;
+    background: url('https://images.pexels.com/photos/30941227/pexels-photo-30941227/free-photo-of-vintage-train-car-interior-with-upholstered-seating.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') no-repeat center center fixed;
+    background-size: cover;
+    color: #E4C590;
+    margin: 0;
+    padding: 0;
+}
+
+.overlay {
+    background: rgba(30, 10, 10, 0.7);
+    padding: 20px;
+    text-align: center;
+    width: 90%;
+    max-width: 800px;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #FFD700;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    font-size: 2em;
+    color: #E4C590;
+}
+
+.sub-text {
+    font-size: 1.2em;
+    color: #C0A080;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 15px;
+    font-size: 1.2em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FFD700;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #E4C590;
+}
+
+.highlight {
+    background: rgba(255, 215, 0, 0.3);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.normal-text {
+    color: #D4B090;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #B09060;
+}
